@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #000000;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>GetSchool</h1>
+  <p></p>
+</div>
+
+<div class="topnav">
+  
+  
+  <a href="feedback (1).html">Apply Now</a>
+  <a href="register.html" style="float:right">Create An Account</a>
+  <a href="Login Form.html" style="float:right">Log In</a>
+  <a href="Find Your University.html">Find a University</a>
+  <a href="Plan for University.html">Plan a university</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Welcome to Get School</h2>
+      <h5></h5>
+      <img src="graduation.jpeg">
+      <!--<div class="fakeimg" style="height:200px;">Image</div>-->
+      <p>Apply to college for the first time or transfer to complete your degree. </p>
+        <p>Navigate your entire college application journey with Common App.</p>
+        <a href="feedback (1).html">Start your application</a>
+
+      </p>
+    </div>
+    <div class="card">
+      <h2>Plan your future</h2>
+      <h5>Get connected with everything you need to apply to college, research financial aid and scholarships, and get advice from counselors, advisors and mentors.</h5>
+      <img src="grad.jpeg">
+      <p>Learn more about the registration process, campus facilities and student welfare support services. <p>
+
+      <p>Explore social and sporting clubs and be involved in day-to-day excitement, culture, and experience opportunities that transition students into the corporate world.</p>
+    </div>
+    <h2>Find a College</h2>
+    <h5>Explore all Universities in Botswana on Get School Website</h5>
+    <a href="Find Your University.html">Start</a>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <img src="campus.jpeg">
+      <!---<div class="fakeimg" style="height:100px;">Image</div>-->
+      <p>Become part of our rich student community and acquire a globally recognized and accredited professional qualification.</p>
+      <p>The quality of your graduate experience will be greatly influenced by your choice of school, join our Business school and transform your entire future.</p>
+    </div>
+    <div class="card">
+      <h1>Why college matters?</h1>
+      <h3>College isn’t just a place to learn. It’s where you’ll find a community filled with new people and have new experiences. It’s where you’ll make friends for life and learn important lessons about yourself. It's where you'll go to reach new heights.</h3>
+      
+    </div>
+    <div class="card">
+      <h3>Your Complete Step-by-step guide</h3>
+      <p>It’s go time — and we’ll be with you every step of the way.
+        Here’s where you’ll find what you need to take that next step towards a brighter future.</p>
+        <a href="Step by step guide.html">Step by step guide</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>E-mail:getSchool@gmail.com</p>
+  <p>Tel:3476947</p>
+</div>
+
+</body>
+</html>

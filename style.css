@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 15vh;
+    background-color: white;
+}
+
+nav {
+    height: 60vh;
+    background-color: aliceblue;
+    color: black;
+}
+
+main {
+    height: 200vh;
+    background-color: #ddd;
+}
+
+footer {
+    height: 35vh;
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+p {
+    color: white;
+    font-size: 160%;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h {
+    color:white;
+    font-size:medium;
+
+}
+
